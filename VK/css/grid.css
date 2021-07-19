@@ -1,0 +1,129 @@
+.page__content{
+    display: grid;
+    grid-template-rows: 7.8% 92.2%;
+}
+.content__header{
+    display: grid;
+    grid-template-areas: "title search push user";
+}
+#headerTitle{
+    grid-area: title;
+}
+#headerSearch{
+    grid-area: search;
+}
+#headerPush{
+    grid-area: push;
+}
+#headerUser{
+    grid-area: user;
+}
+.content__info{
+    display: grid;
+    grid-template-areas: 'friends uniqu followers'
+    'audience audience reach'
+    'genderr genderr geo';
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 32px 32px;
+}
+#infoFriends{
+    grid-area: friends;
+}
+#infoUnique{
+    grid-area: uniqu;
+}
+#infoFollowers{
+    grid-area: followers;
+}
+#infoAudience{
+    grid-area: audience;
+}
+#infoReach{
+    grid-area: reach;
+}
+#infoGender{
+    grid-area: genderr;
+}
+#infoGeo{
+    grid-area: geo;
+}
+.info__card{
+    max-width: 340px;
+    display: grid;
+    grid-template-areas:'cardTitle cardDat cardDat'
+    'cardQuantity cardDynamics cardUp';
+    grid-template-columns: 60% 1fr 15%;
+    grid-template-rows: 1fr 1fr;
+}
+#cardTitle{
+    grid-area: cardTitle;
+}
+#cardQuantity{
+    grid-area: cardQuantity;
+}
+#cardDat{
+    grid-area: cardDat;
+}
+#cardDynamics{
+    grid-area: cardDynamics;
+}
+#cardUp{
+    grid-area: cardUp;
+}
+.information__audiece{
+    display: grid;
+    grid-template-columns: 48% 21% 2% 3% 5% 7%;
+}
+.indicators__audiece{
+    display: grid;
+    grid-template-areas: 'line1 audienceTable audienceTable audienceTable audienceTable audienceTable audienceTable audienceTable'
+    'line2 audienceTable audienceTable audienceTable audienceTable audienceTable audienceTable audienceTable'
+    'line3 audienceTable audienceTable audienceTable audienceTable audienceTable audienceTable audienceTable';
+
+    grid-template-columns: 3% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 33.3% 33.3% 33.3% 33.3%;
+}
+#audieceLine1{
+    grid-area: line1;
+}
+#audieceLine2{
+    grid-area: line2;
+}
+#audieceLine3{
+    grid-area: line3;
+}
+#audienceTable{
+    grid-area: audienceTable;
+}
+
+.audiece__day{
+    display: grid;
+    grid-template-areas:'column1 column2 column3 column4 column5 column6 column7 column8';
+
+}
+#audieceColumn1{
+    grid-area: column1;
+}
+#audieceColumn2{
+    grid-area: column2;
+}
+#audieceColumn3{
+    grid-area: column3;
+}
+#audieceColumn4{
+    grid-area: column4;
+}
+#audieceColumn5{
+    grid-area: column5;
+}
+#audieceColumn6{
+    grid-area: column6;
+}
+#audieceColumn7{
+    grid-area: column7;
+}
+#audieceColumn8{
+    grid-area: column8;
+}

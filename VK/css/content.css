@@ -1,0 +1,170 @@
+.page__content{
+    margin-left: 50px;
+    max-width: 1087px;
+    max-height: 696px;
+}
+.header__title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 43px;
+}
+.header__search{
+    margin-top: 52px;
+    margin-left: 48px;
+    width: 153px;
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+.header__push{
+    margin-top: 56px;
+    margin-left: 24px;
+    width: 22px;
+    height: 22px;
+    outline: none;
+    border: none;
+}
+.user__info{
+    margin-left: 574px;
+    margin-top: 49px;
+    display: flex;
+}
+.user__info__name{
+    margin-top: 14px;
+    margin-right: 11px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.info__card{
+    display: flex;
+    margin-top: 100px;
+    width: 340px;
+    height: 143px;
+    border-radius: 13px;
+    background-color: #FDFDFF;
+}
+.info__audience{
+
+    width: 768px;
+    height: 242px;
+    border-radius: 13px;
+    background-color: #FDFDFF;
+}
+.info__reach{
+    width: 288px;
+    height: 242px;
+    margin-left: auto;
+    border-radius: 13px;
+    background-color: #FDFDFF;
+
+}
+.info__gender{
+    width: 675px;
+    height: 242px;
+    border-radius: 13px;
+    background-color: #FDFDFF;
+}
+.info__Geo{
+    width: 381px;
+    height: 242px;
+    margin-left: -40px;
+    border-radius: 13px;
+    background-color: #FDFDFF;
+}
+
+
+
+/*_________________________________________________________________________внутренности карт*/
+/*___________________________________-карта friends*/
+.card__title{
+    margin-left: 24px;
+    margin-top: 23px;
+}
+#cardDat{
+    margin-left: auto;
+    margin-right: 24px;
+    margin-top: 28px;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.card__quantity{
+    margin-left: 24px;
+    margin-top: 37px;
+}
+.card__Dynamicse{
+    margin-top: 38px;
+    margin-left:auto;
+
+    
+}
+
+#cardUp{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: 24px;
+}
+/*________________________________ карта    audience*/
+.information__audiece{
+    margin-left: 24px;
+    margin-top: 27px;
+}
+.audience__title{
+    font-size: 20px;
+}
+.audience__data{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    cursor: pointer;
+}
+.audience__blueitems{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    margin-left: 31px;
+    cursor: pointer;
+
+}
+
+.audience__pinkitems{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.audience__item{
+    margin-left: 40px; 
+}
+.chart__audiece{
+margin-left: 47px;
+margin-top: 29px;
+}
+.audience__table{
+    width: 635px;
+    border-spacing: 0ch;
+    background-image: url(../img/graph1.png);
+    background-repeat: no-repeat;
+}
+th{
+    border: solid 1px ;
+    padding: 15px;
+    opacity: 0.1;
+}
+.audiece__day{
+    margin-top: 1px;
+    margin-left: 15px;
+}
+.audiece__mark{
+    font-size: 12px;
+}
